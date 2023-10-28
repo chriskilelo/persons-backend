@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/chriskilelo/persons-backend/issues"
   },
-  "homepage": "https://github.com/chriskilelo/persons-backend#readme"
+  "homepage": "https://github.com/chriskilelo/persons-backend#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
 }
