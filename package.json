@@ -1,0 +1,25 @@
+{
+  "name": "persons-backend",
+  "version": "1.0.0",
+  "description": "A project that interacts with the free online API (https://randomuser.me/) for Random User generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chriskilelo/persons-backend.git"
+  },
+  "keywords": [
+    "persons",
+    "random persons",
+    "random persons API",
+    "persons API"
+  ],
+  "author": "Chris Kilelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriskilelo/persons-backend/issues"
+  },
+  "homepage": "https://github.com/chriskilelo/persons-backend#readme"
+}
