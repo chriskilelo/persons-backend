@@ -1,3 +1,6 @@
+# Live environment configurations
+.env
+
 # Logs
 logs
 *.log
