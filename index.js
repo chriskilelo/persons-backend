@@ -21,7 +21,7 @@ const app = express()
 app.use(express.json())
 // Return a middleware that only parses urlencoded bodies and only looks at requests where the Content-Type header matches the type option
 app.use(express.urlencoded({ extended: false }))
-// Send all the '/api/v1.0/publishers' requests to the 'publisherRoutes' file for redirection
-app.use('/api/v1.0/publishers', require('./routes/publisherRoutes'))
+// Send all the '/api/v1.0/persons' requests to the 'personsRoutes' file for redirection
+app.use('/api/v1.0/persons', require('./routes/personsRoutes'))
 // Specify the port where the application shall listen for connections
 app.listen(port, () => console.log('Server started successfully on port ' + port))
