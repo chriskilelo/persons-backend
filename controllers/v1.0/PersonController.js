@@ -28,7 +28,7 @@ const fetchPerson = (req, res) => {
  * @access  Private
  */
 const setPerson = (req, res) => {
-console.log("SET Person");
+    console.log("SET Person");
 }
 
 /**
@@ -37,7 +37,7 @@ console.log("SET Person");
  * @access  Private
  */
 const updatePerson = (req, res) => {
-console.log("UPDATE Person");
+    console.log("UPDATE Person");
 }
 
 /**
@@ -46,7 +46,7 @@ console.log("UPDATE Person");
  * @access  Private
  */
 const deletePerson = (req, res) => {
-   console.log("DELETE Person");
+    console.log("DELETE Person");
 }
 
 module.exports = {
